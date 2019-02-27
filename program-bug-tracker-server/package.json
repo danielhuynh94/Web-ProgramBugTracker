@@ -1,0 +1,21 @@
+{
+  "name": "program-bug-tracker-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server.js server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node4": "^2.1.1"
+  }
+}
